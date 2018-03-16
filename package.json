@@ -1,0 +1,30 @@
+{
+	"name": "cappuccino-line-bot",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"console": "node index.dev.js",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"babel-eslint": "^8.2.2",
+		"bottender": "0.14.25",
+		"eslint": "^4.18.2",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-plugin-import": "^2.9.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-react": "^7.7.0",
+		"messaging-api-line": "^0.6.16",
+		"ramda": "^0.25.0",
+		"redux": "^3.7.2",
+		"redux-observable": "^0.18.0",
+		"rxjs": "^5.5.7"
+	},
+	"devDependencies": {
+		"nodemon": "^1.17.2"
+	},
+	"engines": {
+		"node": ">= 7.6.0"
+	}
+}
